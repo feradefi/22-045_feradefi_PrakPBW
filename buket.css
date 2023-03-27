@@ -1,0 +1,185 @@
+/* Styles for the header and navigation bar */
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #a5fea2;
+}
+.logo img {
+    height: 80px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #0c7951;
+    padding: 5px 15px;
+    transition: 0.6s ease;
+}
+nav ul li a:hover {
+    background-color: #0c7951;
+    color: #ffffff;
+}
+  
+  /* Styles for the hero section */
+.hero {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.700),rgba(0, 0, 0, 0.700)), url(kumpulanbuket.jpg);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px ;
+}
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.hero h1 span{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.wa-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 16px;
+}
+.insta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:yellow;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}  
+.order-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-now :hover {
+    background-color: hsl(63, 68%, 24%);
+    color: #ffffff;
+}
+/* Styles for the hero content */
+.content {
+    max-width: 100%; 
+    background: #a5fea2; 
+    padding: 20px; 
+    text-align: justify;
+}
+h2{
+    color: #034a2f;
+    text-align: center;
+}
+
+/* Styles for the hero produk */
+.produk {
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+.grid-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.produk-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+}
+.produk-item img {
+    max-width: 200px;
+    height: auto;
+}
+.produk-item .harga {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+.produk-item .beli {
+    background-color: #ff6600;
+    padding: 10px;
+}  
+
+/* Styles for the hero form */
+form {
+    display: flexbox;
+    max-width: 100%; 
+    background-color: #a5fea2;
+    color: #000000;
+    padding: 25px;
+    text-align: left;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary {
+    display: inline-block;
+    background-color: #034a2f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Styles for the hero footer */
+footer {
+    max-width: 100%; 
+    max-height: 130px;
+    text-align: center; 
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.follow {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.social-icons {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+}
+.social-icons a {
+    display: block;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+      
