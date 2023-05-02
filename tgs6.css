@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body {
+    background-color: #f0f0f0;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #18677a;
+}
+h4{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #18677a;
+}
+form {
+    width: 500px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 35%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0.400)), url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v522-katie-05-abstractbackground_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=86560cab45e55eeff96289994673b764);
+    padding: 35px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+input[type="number"] {
+    width: 94%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #21c9d2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+input[type="submit"]:hover {
+    background-color: #18677a;
+}
+h2 {
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    font-size: 24px;
+    color: blue;
+}
+	
